@@ -1,0 +1,29 @@
+
+//Check for Element Presence
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class elementPresence {
+
+    public static void main(String[] args){
+
+
+        Set<String> namesSet = new HashSet<>();
+
+        namesSet.add("John");
+        namesSet.add("Mohammed");
+        namesSet.add("Mr Omar");
+
+        if(namesSet.contains("John")){
+
+            System.out.println("Found John");
+        }
+
+        else {
+
+            System.out.println("John is not in the Set ");
+        }
+
+    }
+}
